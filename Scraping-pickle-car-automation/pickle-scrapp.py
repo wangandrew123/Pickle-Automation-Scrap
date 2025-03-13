@@ -22,9 +22,9 @@ logging.basicConfig(
 )
 
 # S3 configuration
-S3_ENDPOINT = "https://sgxwytdltbcyszbliqdh.supabase.co/storage/v1/s3"
-ACCESS_KEY_ID = "f480c9a90d378a5052193f7d60055781"
-SECRET_ACCESS_KEY = "ac68a84bcf6de0206fd523b71988a35d61c41973ceb276a8d7ddf75a12df4d51"
+S3_ENDPOINT = https://rpqqlodhycwjxrphaxxo.supabase.co/storage/v1/s3"
+ACCESS_KEY_ID = "29df6c093438720057c2c89ef87e5eff"
+SECRET_ACCESS_KEY = "18057acb37d4d1d27cd9654c0a32e70275d787ab90ad1637e222729dc6247dee"
 BUCKET_NAME = "scrap-json"
 FILE_NAME = "filter1.json"
 
@@ -39,9 +39,9 @@ s3_client = boto3.client(
 
 # Filter URL to scrap the cars data
 URL = "https://www.pickles.com.au/used/search/lob/cars-motorcycles/cars/state/qld?contentkey=all-cars&filter=and%255B0%255D%255Bprice%255D%255Ble%255D%3D30000%26and%255B1%255D%255Bor%255D%255B0%255D%255BbuyMethod%255D%3DBuy%2520Now%26and%255B1%255D%255Bor%255D%255B1%255D%255BbuyMethod%255D%3DEOI%26and%255B1%255D%255Bor%255D%255B2%255D%255BbuyMethod%255D%3DPickles%2520Online"
-SENDER_PASSWORD = "tdao tbew tmya bizf"  # Update with your sender email password
-RECEIVER_EMAIL = "vharbarynin@gmail.com"
-SENDER_EMAIL = "vharbarynin@gmail.com"  # Update with your sender email
+SENDER_PASSWORD = "wopi fqyl oqgu izkb"  # Update with your sender email password
+RECEIVER_EMAIL = "Andrewang10101@gmail.com"
+SENDER_EMAIL = "Andrewang10101@gmail.com"  # Update with your sender email
 
 
 # Email credentials (use your actual email and password)
