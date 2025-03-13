@@ -39,9 +39,9 @@ s3_client = boto3.client(
 
 # Filter URL to scrap the cars data
 URL = "https://www.pickles.com.au/used/search/lob/cars-motorcycles/cars/state/qld?contentkey=all-cars&filter=and%255B0%255D%255Bprice%255D%255Ble%255D%3D30000%26and%255B1%255D%255Bor%255D%255B0%255D%255BbuyMethod%255D%3DBuy%2520Now%26and%255B1%255D%255Bor%255D%255B1%255D%255BbuyMethod%255D%3DEOI%26and%255B1%255D%255Bor%255D%255B2%255D%255BbuyMethod%255D%3DPickles%2520Online"
-SENDER_PASSWORD = "wopi fqyl oqgu izkb"  # Update with your sender email password
+SENDER_PASSWORD = "mmdq zvlt afsm pcvy"  # Update with your sender email password
 RECEIVER_EMAIL = "Andrewang10101@gmail.com"
-SENDER_EMAIL = "Andrewang10101@gmail.com"  # Update with your sender email
+SENDER_EMAIL = "support@endurasolutions.com.au"  # Update with your sender email
 
 
 # Email credentials (use your actual email and password)
