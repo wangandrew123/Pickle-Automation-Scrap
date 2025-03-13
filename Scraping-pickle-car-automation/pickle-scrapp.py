@@ -22,7 +22,7 @@ logging.basicConfig(
 )
 
 # S3 configuration
-S3_ENDPOINT = https://rpqqlodhycwjxrphaxxo.supabase.co/storage/v1/s3"
+S3_ENDPOINT = "https://rpqqlodhycwjxrphaxxo.supabase.co/storage/v1/s3"
 ACCESS_KEY_ID = "29df6c093438720057c2c89ef87e5eff"
 SECRET_ACCESS_KEY = "18057acb37d4d1d27cd9654c0a32e70275d787ab90ad1637e222729dc6247dee"
 BUCKET_NAME = "scrap-json"
