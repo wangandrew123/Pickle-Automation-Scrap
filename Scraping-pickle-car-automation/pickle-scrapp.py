@@ -35,10 +35,11 @@ s3_client = boto3.client(
     aws_access_key_id=ACCESS_KEY_ID,
     aws_secret_access_key=SECRET_ACCESS_KEY,
 )
-
-
+# Are you checking this now?
+#  Please in
+#  Please in
 # Filter URL to scrap the cars data
-URL = "https://www.pickles.com.au/used/search/lob/cars-motorcycles/cars/state/qld?contentkey=all-cars&filter=and%255B0%255D%255Bprice%255D%255Ble%255D%3D30000%26and%255B1%255D%255Bor%255D%255B0%255D%255BbuyMethod%255D%3DBuy%2520Now%26and%255B1%255D%255Bor%255D%255B1%255D%255BbuyMethod%255D%3DEOI%26and%255B1%255D%255Bor%255D%255B2%255D%255BbuyMethod%255D%3DPickles%2520Online"
+URL = "https://www.pickles.com.au/used/search/lob/cars-motorcycles/cars/state/qld?contentkey=all-cars&filter=and%255B0%255D%255Bor%255D%255B0%255D%255BbuyMethod%255D%3DPickles%2520Live%26and%255B0%255D%255Bor%255D%255B1%255D%255BbuyMethod%255D%3DBuy%2520Now%26and%255B1%255D%255Bor%255D%255B0%255D%255Bwovr%255D%3DRepairable%2520Write-Off"
 SENDER_PASSWORD = "mmdq zvlt afsm pcvy"  # Update with your sender email password
 RECEIVER_EMAIL = "Andrewang10101@gmail.com"
 SENDER_EMAIL = "support@endurasolutions.com.au"  # Update with your sender email
