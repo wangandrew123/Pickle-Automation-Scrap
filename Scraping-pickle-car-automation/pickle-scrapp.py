@@ -133,11 +133,14 @@ driver.get(URL)
 
 # Wait for the page to load
 wait = WebDriverWait(driver, 10)
-wait.until(
-    EC.presence_of_element_located((By.CSS_SELECTOR, ".content-grid_gridCard__vWoIs"))
-)
 
-# Load previous data
+try: 
+    wait.until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, ".content-grid_gridCard__vWoIs"))
+    )
+
+except Exception as e:
+    print(f"There is no any cars in this page.")# Load previous data
 previous_data = load_previous_data()
 
 
