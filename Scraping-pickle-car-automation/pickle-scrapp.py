@@ -39,9 +39,9 @@ s3_client = boto3.client(
 #  Please in
 #  Please in
 # Filter URL to scrap the cars data
-URL = "https://www.pickles.com.au/used/search/lob/cars-motorcycles/cars/state/qld?contentkey=all-cars&filter=and%255B0%255D%255Bor%255D%255B0%255D%255BbuyMethod%255D%3DPickles%2520Live%26and%255B0%255D%255Bor%255D%255B1%255D%255BbuyMethod%255D%3DBuy%2520Now%26and%255B1%255D%255Bor%255D%255B0%255D%255Bwovr%255D%3DRepairable%2520Write-Off"
+URL = "https://www.pickles.com.au/used/search/lob/cars-motorcycles/cars?contentkey=all-cars&filter=and%255B0%255D%255Bor%255D%255B0%255D%255BbuyMethod%255D%3DPickles%2520Live%26and%255B0%255D%255Bor%255D%255B1%255D%255BbuyMethod%255D%3DBuy%2520Now%26and%255B1%255D%255Bor%255D%255B0%255D%255Bwovr%255D%3DRepairable%2520Write-Off%26and%255B2%255D%255BproductLocationOr%255D%255B0%255D%255BproductLocation%252Fstate%255D%3Dqld%26and%255B2%255D%255BproductLocationOr%255D%255B1%255D%255BproductLocation%252Fstate%255D%3Dvic%26and%255B2%255D%255BproductLocationOr%255D%255B2%255D%255BproductLocation%252Fstate%255D%3Dnsw%26and%255B2%255D%255BproductLocationOr%255D%255B3%255D%255BproductLocation%252Fstate%255D%3Dact"
 SENDER_PASSWORD = "mmdq zvlt afsm pcvy"  # Update with your sender email password
-RECEIVER_EMAIL = "Andrewang10101@gmail.com"
+RECEIVER_EMAIL = "admin@brakeandclutchgladstone.com.au"
 SENDER_EMAIL = "support@endurasolutions.com.au"  # Update with your sender email
 
 
